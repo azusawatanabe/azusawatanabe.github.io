@@ -2,9 +2,12 @@
     "name": "azusawatanabe.github.io",
     "version": "1.0.0",
     "scripts": {
-        "live": "pugito compile -l -d ./"
+        "pugito-start": "pugito compile -l -d ./ &",
+        "live-server-start": "live-server &",
+        "live": "npm run pugito-start && npm run live-server-start"
     },
     "devDependencies": {
+        "live-server": "^1.2.1",
         "pugito": "1.0.3"
     }
 }
