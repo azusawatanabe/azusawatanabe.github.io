@@ -1,4 +1,3 @@
-
 body {
 		background: #ffffff;
     font-family: 'Work Sans', sans-serif;
@@ -6,7 +5,6 @@ body {
 		font-weight: 300;
     overflow-x: hidden;
 }
-
 
 /*---------------------------------------
     Typography              
@@ -33,12 +31,6 @@ h2 {
 
 h3 {
   font-size: 26px;
-}
-
-h3.subtitle {
-  color: #555;
-  font-weight: 400;
-  letter-spacing: 4px;
 }
 
 h4 {
@@ -124,12 +116,6 @@ a:hover, a:active, a:focus {
   display: inline-block;
   vertical-align: middle;
   float: none;
-}
-
-.case-text {
-  text-align: left;
-  font-size: 20px;
-  padding-top: 20px;
 }
 
 /*---------------------------------------
@@ -252,6 +238,12 @@ a:hover, a:active, a:focus {
 
 #about {
   padding-top: 60px;
+}
+
+#about .subtitle {
+  color: #555;
+  font-weight: 400;
+  letter-spacing: 4px;
 }
 
 #about img.azusa {
@@ -403,14 +395,7 @@ a:hover, a:active, a:focus {
   text-align: center;
 }
 
-#single-project .col-md-12,
-#single-project .col-md-6,
-#single-project .col-md-4 {
-  padding-left: 0px;
-  padding-bottom: 22px;
-}
-
-#single-project .col-md-12 {
+#single-project .row {
   padding-top: 42px;
 }
 
@@ -441,6 +426,42 @@ a:hover, a:active, a:focus {
   color: #EEE;
   border: 1px solid #333;
   text-decoration: none;
+}
+
+
+#single-project .subtitle {
+  font-weight: 500;
+  letter-spacing: normal;
+  font-size: 32px;
+}
+
+#single-project ul {
+  padding-left: 1.5em;
+}
+
+#single-project .case-text {
+  text-align: left;
+  color: rgb(99, 99, 99);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+#single-project .nat-opportunity {
+  background-color: #FBFAF9;
+  font-weight: 400;
+  font-size: 30px;
+  color: #464650;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#single-project .nat-opportunity .row {
+  padding: 0;
+  margin: 0;
 }
 
 
